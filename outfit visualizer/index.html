@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outfit Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>OUTFIT VISUALIZER</h1>
+    <div class="button-section">
+      <button onclick="showSaveDialog()">Save Outfit</button>
+      <button onclick="shareOutfit()">Share Outfit</button>
+      <button onclick="clearCanvas()">New Outfit</button>
+    </div>
+  </header>
+  <div class="main-container">
+    <aside>
+      <h2>Saved Outfits</h2>
+      <div id="saved-outfits"></div>
+    </aside>
+    <div class="content">
+      <div class="upload-section">
+        <input type="file" id="upload" accept="image/*" multiple onchange="loadImages(event)">
+      </div>
+      <div class="canvas-section">
+        <div id="canvas"></div>
+      </div>
+    </div>
+
+    <!-- Save Outfit Dialog -->
+    <div id="saveDialog" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeDialog()">&times;</span>
+        <h2>Save Outfit</h2>
+        <input type="text" id="outfitName" placeholder="Enter outfit name">
+        <button onclick="confirmSave()">Save</button>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
