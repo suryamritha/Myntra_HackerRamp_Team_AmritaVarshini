@@ -1,1 +1,1 @@
-# Myntra_HackerRamp_Team_AmritaVarshini
+# Myntra_HackerRamp_Team_AmrithaVarshini
