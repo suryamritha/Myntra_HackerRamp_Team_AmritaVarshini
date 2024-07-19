@@ -1,7 +1,7 @@
 # Myntra_HackerRamp_Team_AmrithaVarshini
 FIND YOUR COLOR 
 
-The purpose of the "Your_color" folder project involves creating a web application where users can upload images of clothing items. The application analyzes these images to extract dominant colors and suggest complementary colors using color theory algorithms. Additionally, it provides recommendations for clothing items that match the analyzed colors, enhancing the user's shopping experience by helping them discover suitable styles and color palettes.
+The purpose of the "Your_color" folder project involves creating a web application where users can upload images of the user. The application analyzes this image of the user to extract dominant colors and suggest complementary colors using color theory algorithms. Additionally, it provides recommendations for clothing items that match the analyzed colors, enhancing the user's shopping experience by helping them discover suitable styles and color palettes.
 
 ______________________________________________________________________________________________________
 OUTFIT VISUALIZER
